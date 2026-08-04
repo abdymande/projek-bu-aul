@@ -1,0 +1,78 @@
+<html>
+    <head>
+        <title>
+            Praktek Form
+        </title>
+    </head>
+    <body>
+        <h2>Form Pendaftaran SPMB</h2>
+        <form>
+            <table>
+                <tr>
+                    <td><label>Nama Lengkap</label></td>
+                    <td>:</td>
+                    <td> <input type="text" required placeholder="masukkan nama"><br></td>
+                </tr>
+                <tr>
+                    <td><label>No HP</label></td>
+                    <td>:</td>
+                    <td> <input type="number" required><br></td>
+                </tr>
+                <tr>
+                    <td><label>Tanggal Lahir</label></td>
+                    <td>:</td>
+                    <td><input type="date" required><br></td>
+                </tr>
+                <tr>
+                    <td><label>Email</label></td>
+                    <td>:</td>
+                    <td><input type="email"></td>
+                </tr>
+                <tr>
+                    <td><label>Password</label></td>
+                    <td>:</td>
+                    <td><input type="password"></td>
+                </tr>
+                <tr>
+                    <td><label>Jenis Kelamin</label></td>
+                    <td>:</td>
+                    <td><input type="radio" name="jeniskelamin" value="=L">Laki-Laki
+            <input type="radio" name="jeniskelamin" value="=P">Perempuan</td>
+                </tr>
+                <tr>
+                    <td><label>Sub Organ</label></td>
+                    <td>:</td>
+                    <td><input type="checkbox" name="suborgan" value="">MAC
+            <input type="checkbox" name="suborgan" value="">Paskatema
+            <input type="checkbox" name="suborgan" value="">Memo
+            <input type="checkbox" name="suborgan" value="">Metic
+            <input type="checkbox" name="suborgan" value="">Comet
+            <input type="checkbox" name="suborgan" value="">IRC
+            <input type="checkbox" name="suborgan" value="">Basket</td>
+                </tr>
+            <tr>
+                    <td> <label>Jurusan</label></td>
+                    <td>:</td>
+                    <td><select name="jurusan">
+                <option value="">Pilih Jur</option>
+                <option value="RPL">RPL</option>
+                <option value="TKJ">TKJ</option>
+                <option value="PG">PG</option>
+            </select></td>
+                </tr>
+                <tr>
+                    <td><label>Alamat</label></td>
+                    <td>:</td>
+                    <td><textarea placeholder="Alamat"></textarea></td>
+                </tr>
+                <tr>
+                    <td><label>Upload Foto</label></td>
+                    <td>:</td>
+                    <td><input type="file"></td>
+                </tr>
+            </table>
+            
+            <button type="submit">Kirim</button>
+        </form>
+    </body>
+</html>
